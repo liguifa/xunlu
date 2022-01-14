@@ -1,0 +1,106 @@
+html, body{
+    /* background: #f0f2f5; */
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+/*滚动条样式开始*/
+::-webkit-scrollbar {  
+    width: 14px;  
+    height: 14px;  
+}  
+
+::-webkit-scrollbar-track,  ::-webkit-scrollbar-thumb {  
+    border-radius: 999px;  
+    border: 5px solid transparent;  
+}  
+
+::-webkit-scrollbar-track {  
+    box-shadow: 1px 1px 5px rgba(0,0,0,.2) inset;  
+}  
+
+::-webkit-scrollbar-thumb {  
+    min-height: 20px;  
+    background-clip: content-box;  
+    box-shadow: 0 0 0 5px rgba(0,0,0,.2) inset;  
+}  
+
+::-webkit-scrollbar-corner {  
+    background: transparent;  
+} 
+
+.pa-main {
+	display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.meta-main-loading {
+    position: fixed;
+    top: 100px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    display: inline-block;
+    padding: 10px 16px;
+    background: #fff;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    pointer-events: all;
+    width: 130px;
+    align-items: center;
+    z-index: 999999;
+    user-select: none;
+}
+
+.meta-main-loading svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    position: relative;
+    top: 2px;
+}
+
+.pa-main-right {
+    width: calc(100% - 255px);
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.pa-main-right-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.pa-main-right-body-title{
+	width: 100%;
+	height: 80px;
+	background: #ffffff;
+}
+
+@media screen and (max-device-width: 1279px) {
+    .meta-main-nav {
+		display: none;
+    }
+}
+
+.meta-main-bug {
+    width: 40px;
+    height: 40px;
+    box-shadow: 1px 1px 4px rgba(0,0,0,.08);
+    position: fixed;
+    right: 50px;
+    bottom: 120px;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ant-table-header-column {
+    width: 100%;
+}

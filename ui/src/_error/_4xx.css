@@ -1,0 +1,46 @@
+._4xx{
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    text-align: center;
+    color:#527bcc; 
+    font:'华文彩云';
+    position: fixed;
+    z-index: 1000;
+    background: #fff;
+    top: 0px;
+    left: 0px;
+}
+
+._4xx > h1 {
+    margin-top:100px;
+    font-size:160px;
+    color:#527bcc !important; 
+}
+
+.onlinefs-message-one {
+    display:block;
+    font:40px '华文彩云';
+    font:'华文彩云';
+}
+
+.onlinefs-message-two {
+    margin-top:24px;
+    margin-bottom:24px;
+    display:block;
+    font:18px '华文彩云'
+}
+
+._4xx > a {
+    display:inline-block;
+    height:40px;
+    width:130px;
+    background:#527bcc;
+    font-size:22px;
+    font-family:'华文彩云';
+    text-decoration:none;
+    color:#fff;
+    line-height:40px
+}

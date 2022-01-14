@@ -1,0 +1,11 @@
+.meta-user-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.meta-user-search {
+    text-align: right;
+    margin-bottom: 10px;
+}

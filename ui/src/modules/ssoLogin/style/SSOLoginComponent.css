@@ -1,0 +1,30 @@
+.meta-login {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    /* background: url("../../assets/background.jpg"); */
+    background: url('http://area.sinaapp.com/bingImg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 100000;
+}
+
+.meta-login-message {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    background: #ffffff;
+    font-size: 30px;
+    color: darkcyan;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}

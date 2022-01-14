@@ -1,0 +1,14 @@
+.meta-choose-tables-description {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 350px;
+    margin-bottom: 0px;
+}
+
+.meta-choose-tables-name {
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

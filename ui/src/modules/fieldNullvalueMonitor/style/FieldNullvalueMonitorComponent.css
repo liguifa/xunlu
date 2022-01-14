@@ -1,0 +1,12 @@
+.meta-fieldnullvalue-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.meta-fieldnullvalue-title > span, .meta-fieldnullvalue-title > h3  {
+    padding: 0px;
+    margin: 0px;
+    margin-right: 10px;
+}

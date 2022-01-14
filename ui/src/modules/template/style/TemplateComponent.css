@@ -1,0 +1,11 @@
+.meta-template-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.meta-template-search {
+    text-align: right;
+    margin-bottom: 10px;
+}

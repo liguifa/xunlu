@@ -1,0 +1,95 @@
+.meta-lineage {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#meta-lineage-chart {
+    height: calc(100% - 40px);
+    overflow: hidden;
+}
+
+.meta-lineage-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.meta-lineage-tableinfo-description-div {
+    width: 258px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.meta-lineage-tableinfo-name {
+    width: 188px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.ant-card-meta-description {
+    max-height: 40px;
+}
+
+.ant-card-actions > li > span {
+    position: static;
+}
+
+.meta-lineage-simple-node {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    float: left;
+    border: 1px solid #e8e8e8;
+}
+
+.meta-lineage-simple-node-plus {
+    height: 48px;
+    width:50px;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meta-lineage-simple-node-title {
+    background: #ffffff;
+    width: calc(100% - 50px);
+    height: 48px;
+    overflow: hidden;
+    padding: 4px;
+}
+
+.meta-lineage-simple-node-title a {
+    word-break: break-all;
+    color: rgba(0,0,0,.85);
+    font-weight: 500;
+}
+
+.meta-lineage-tree-node {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background: transparent;
+    height: 10px;
+}
+
+.meta-lineage-tree-node img {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.meta-lineage-tree-node a {
+    color: #333;
+    font-size: 10px;
+}
+
+.meta-lineage-node {
+    background: #ffffff;
+}

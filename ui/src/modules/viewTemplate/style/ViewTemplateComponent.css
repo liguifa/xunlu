@@ -1,0 +1,65 @@
+.line-numbers .line-numbers-rows {
+    left: 0px;
+}
+
+pre[class*="language-"] {
+    background: #fff;
+}
+
+.meta-viewTemplate {
+    display: inline;
+}
+
+.meta-viewTemplate-tabbars {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #ebedf0;
+    width: calc(100% - 185px);
+}
+
+.meta-viewTemplate-tabbars > li {
+    padding: 10px 15px;
+    cursor: pointer;
+    height: 100%;
+    margin: 0 32px 0 0;
+    padding: 12px 16px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    -webkit-transition: color .3s cubic-bezier(.645, .045, .355, 1);
+    transition: color .3s cubic-bezier(.645, .045, .355, 1);
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5;
+}
+
+.meta-viewTemplate-tabbars-active {
+    color: #1890ff;
+    font-weight: 500;
+    border-bottom: #1890ff 2px solid;
+}
+
+.meta-viewTemplate-panel {
+    padding: 10px 0px;
+}
+
+.meta-viewTemplate-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.meta-viewTemplate-extra {
+    width: 185px;
+    border-bottom: 1px solid #ebedf0;
+    line-height: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

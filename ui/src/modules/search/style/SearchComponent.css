@@ -1,0 +1,19 @@
+.meta-search-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.meta-search-body-select{
+    margin-top: 5px;
+    width: 700px;
+}
+
+.meta-search-body-result {
+    height: 500px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

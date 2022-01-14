@@ -1,0 +1,20 @@
+{
+    "extends": [
+        "tslint:recommended",
+        "tslint-react",
+        "tslint-config-prettier"
+    ],
+    "linterOptions": {
+        "exclude": [
+            "config/**/*.js",
+            "node_modules/**/*.ts",
+            "coverage/lcov-report/*.js",
+            "assets/**/*.js"
+        ]
+    },
+    "rules": {
+        "no-reference": false,
+        "no-namespace": false,
+        "no-any": false
+    }
+}

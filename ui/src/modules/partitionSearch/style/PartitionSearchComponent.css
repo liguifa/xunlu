@@ -1,0 +1,24 @@
+.meta-partition-search {
+    width: 500px;
+}
+
+.meta-partition-search-div {
+    display: flex;
+    height: 100%;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.meta-partition-search-result {
+    flex-grow: 1;
+    margin-top: 32px;
+    width: 100%;
+    overflow: auto;
+}
+
+.ant-descriptions-item-label {
+    width: 281px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

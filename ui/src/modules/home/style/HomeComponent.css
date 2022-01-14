@@ -1,0 +1,25 @@
+.meta-home-title-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.meta-home-title-card img {
+    width: 100px;
+    height: 100px;
+}
+
+@media screen and (max-device-width: 1366px) {
+    .meta-home-title-card img {
+		width: 60px;
+        height: 60px;
+    }
+}
+
+.meta-home-all-bussiness {
+    overflow-y: auto;
+}
+
+.meta-home-all-bussiness div {
+    overflow: hidden;
+}

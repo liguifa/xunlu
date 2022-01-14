@@ -1,0 +1,17 @@
+.meta-edit-business-admin-select-footer {
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    padding: 0px;
+}
+
+.meta-edit-business-admin-select-footer {
+    margin: 0px;
+    padding: 0px;
+}
+
+.meta-edit-business-admin-select-default-option {
+    display: none;
+}

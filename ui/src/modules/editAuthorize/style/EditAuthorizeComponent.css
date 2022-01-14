@@ -1,0 +1,20 @@
+.meta-edit-authorize-description {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 400px;
+    margin-bottom: 0px;
+}
+
+.meta-edit-authorize-choose {
+    margin-top: -15px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.meta-edit-authorize-name {
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

@@ -1,0 +1,10 @@
+.meta-create-user-username {
+    display: flex;
+    flex-direction: row;
+    width: 680px;
+}
+
+.meta-create-user-username input {
+    width: 660px;
+    margin-right: 20px;
+}

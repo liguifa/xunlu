@@ -1,0 +1,13 @@
+.meta-operation-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.meta-operation-title > span {
+    padding: 0px;
+    margin: 0px;
+    margin-left: 10px;
+}

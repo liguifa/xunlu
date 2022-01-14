@@ -1,0 +1,40 @@
+html,body,#root,.App{
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.pa-login{
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    /* background: url("../../assets/background.jpg"); */
+    background: url('http://area.sinaapp.com/bingImg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pa-login-form{
+    height: 280px;
+    width: 360px;
+    position: fixed;
+    top:0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 5px;
+}
+
+.pa-login-form input,.pa-login-form button{
+    width: 320px
+}
+
+.pa-login-form h1{
+    margin-bottom: 40px;
+    margin-top: 20px;
+}

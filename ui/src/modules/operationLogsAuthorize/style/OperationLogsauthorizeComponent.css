@@ -1,0 +1,14 @@
+.meta-business-operations-authorize {
+    text-align: right;
+}
+
+.meta-business-operations-authorize .ant-table-pagination {
+    float: left;
+}
+
+.meta-business-operation-authorize-btns {
+    float: right;
+    display: flex;
+    margin-top: -49px;
+    flex-direction: row;
+}

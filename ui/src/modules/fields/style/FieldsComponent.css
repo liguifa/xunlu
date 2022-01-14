@@ -1,0 +1,61 @@
+.meta-fields-description-div{
+    display: flex;
+    flex-direction: row;
+}
+
+.meta-fields-description{
+    width: 378px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 0px;
+}
+
+.meta-fields-dict-div{
+    display: flex;
+    flex-direction: row;
+}
+
+.meta-fields-dict{
+    width: 238px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 0px;
+}
+
+.meta-field-name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media screen and (max-device-width: 1680px) {
+    .meta-fields-description {
+        width: 278px;
+    }
+
+    .meta-fields-dict {
+        width: 176px;
+    }
+}
+
+@media screen and (max-device-width: 1440px) {
+    .meta-fields-description {
+        width: 185px;
+    }
+
+    .meta-fields-dict {
+        width: 176px;
+    }
+}
+
+@media screen and (max-device-width: 1366px) {
+    .meta-fields-description {
+        width: 135px;
+    }
+
+    .meta-fields-dict {
+        width: 126px;
+    }
+}

@@ -1,0 +1,5 @@
+export enum NavActionTypes {
+    GET_BUSINESSES = "GET_BUSINESSES",
+    CHANGE_MENU = "CHANGE_MENU",
+    CHANGE_SELECT_KEY = "CHANGE_SELECT_KEY"
+}

@@ -1,0 +1,25 @@
+.meta-table-column {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.meta-table-column > p {
+    margin-bottom: 0px;
+} 
+
+.meta-table-column > p > i {
+    vertical-align: middle;
+}
+
+.meta-example-row {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.meta-example-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

@@ -1,0 +1,17 @@
+.meta-editTable-template {
+    display: flex;
+    flex-direction: row;
+}
+
+.meta-editTable-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60px;
+    align-items: center;
+}
+
+.meta-editTable-buttons > i {
+    font: 24px;
+    cursor: pointer;
+}

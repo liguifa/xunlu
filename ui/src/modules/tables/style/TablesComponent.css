@@ -1,0 +1,98 @@
+.meta-tables{
+    height: 100%;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.meta-tables-tools{
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.meta-tables-description {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 309px;
+    margin-bottom: 0px;
+}
+
+.meta-tables-name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: relative;
+}
+
+/* @media screen and (max-device-width: 1440px) {
+    .meta-tables-name {
+        max-width: 240px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+} */
+
+@media screen and (min-device-width: 1441px) and (max-device-width: 1680px) { 
+    /* .meta-tables-name {
+        max-width: 260px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    } */
+
+    .meta-tables-description {
+        width: 290px;
+    }
+}
+
+/* @media screen and (min-device-width: 1681px) {
+    .meta-tables-name {
+        max-width: 400px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+} */
+
+@media screen and (max-device-width: 1366px) {
+    .meta-tables-description {
+        width: 209px;
+    }
+
+    /* .meta-tables-name {
+        max-width: 210px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    } */
+}
+
+/* @media screen and (max-device-width: 1280px) { 
+    .meta-tables-name {
+        max-width: 170px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+}  */
+
+.meta-tables-description-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.meta-tables-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.meta-tables-move {
+    position: absolute;
+    right: 0px;
+    top: 5px;
+}
